@@ -1,0 +1,537 @@
+/* Header Styles */
+header {
+  background-color: black;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  color: white;
+  padding-left: 40px;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+/* Styles pour les groupes de navigation */
+
+.groupe1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 50px;
+  list-style-type: none;
+}
+
+header ul a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  margin-right: 0px;
+}
+
+/* Styles pour les liens de navigation */
+
+.header-nav ul {
+  display: flex;
+  gap: 10px;
+  scroll-margin-left: 30px;
+  padding: 50px;
+}
+
+
+.nav-group ul {
+  display: flex;
+  gap: 20px;
+  margin-left: 300px;
+}
+
+/* Styles du menu burger */
+
+.menu-burger {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  height: 40px;
+}
+
+.menu-burger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+
+
+body {
+  background-color: black;
+}
+
+/* Main Content Styles */
+main {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+
+
+/* Styles sujets  support */
+body .support-topics {
+  background-color: #000;
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: start;
+  gap: 10px;
+  width: 350px;
+}
+/* Styles des titres */
+h3 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.support-title {
+  grid-column: 1 / -1;
+  text-align: left;
+}
+h3 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.support-title {
+  grid-column: 1 / -1;
+  text-align: left;
+}
+/* Styles des colonnes de sujets */
+.topics-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 435px;
+}
+/* Styles des boutons de sujets */
+.topic-button {
+  background-color: #333;
+  color: white;
+  padding: 20px 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  width: 435px;
+
+
+}
+
+.topic-button::after {
+  content: '>';
+}
+/* Styles pour question courante*/
+.liste_question {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: black;
+}
+
+.question {
+  padding-bottom: 35px;
+  border-bottom: solid 1px #333;
+  display: flex;
+  justify-content: space-between;
+  width: 208%;
+}
+
+.question::after {
+  content: '˅';
+}
+
+/* Styles pour la barre de recherche */
+
+.contenu_gauche {
+  background: #333;
+  width: 400px;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  gap: 5%;
+}
+
+
+#search-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 50px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: transparent;
+  gap: 5%;
+}
+/* styles police */
+.groupe1 {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.support-topics {
+  font-size: 20px;
+  font-weight: bolder
+}
+
+/* Styles footer */
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  gap: 1vw;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  background-color: black;
+  padding: 2vh 6vw;
+}
+
+
+.footer a {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: inline-block;
+}
+
+.footer p {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+
+.fb1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 45%;
+}
+
+.fb11 p {
+  text-align: end;
+  max-width: 15vw;
+}
+
+
+.footer-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+
+.footer-form input[type=email] {
+  background-color: transparent;
+  border-radius: none !important;
+  border: none;
+  padding: 0%;
+  color: white;
+  text-align: left;
+  width: 250px;
+  height: 15px !important;
+  font-size: 13px !important;
+  text-transform: none;
+}
+
+
+.footer-form input[type=submit] {
+  background-color: transparent;
+  border-radius: none;
+  border: none;
+  padding: 0%;
+  color: white;
+  text-align: right;
+  width: 100px;
+  height: 15px !important;
+  font-size: 13px !important;
+}
+
+
+.fb12 p {
+  text-align: start;
+  max-width: 20vw;
+}
+
+
+.fb2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 45%;
+}
+
+
+.fb21 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  text-align: start;
+}
+
+
+.fb21 a {
+  text-align: start;
+  max-width: 150px
+}
+
+.fb22 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  .groupe1,
+  .contenu_gauche,
+  .liste_question {
+    width: 100%;
+  }
+
+  .menu-burger {
+    display: block;
+  }
+
+  .header-nav,
+  .nav-group {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 1vw;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: black;
+    padding: 2vh 6vw;
+  }
+
+
+  .footer a {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: inline-block;
+  }
+
+  .footer p {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+
+  .fb1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 45%;
+  }
+
+  .fb11 p {
+    text-align: end;
+    max-width: 15vw;
+  }
+
+
+  .footer-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+
+
+  .footer-form input[type=email] {
+    background-color: transparent;
+    border-radius: none !important;
+    border: none;
+    padding: 0%;
+    color: white;
+    text-align: left;
+    width: 250px;
+    height: 15px !important;
+    font-size: 13px !important;
+    text-transform: none;
+  }
+
+
+  .footer-form input[type=submit] {
+    background-color: transparent;
+    border-radius: none;
+    border: none;
+    padding: 0%;
+    color: white;
+    text-align: right;
+    width: 100px;
+    height: 15px !important;
+    font-size: 13px !important;
+  }
+
+
+  .fb12 p {
+    text-align: start;
+    max-width: 20vw;
+  }
+
+
+  .fb2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 45%;
+  }
+
+
+  .fb21 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    text-align: start;
+  }
+
+
+  .fb21 a {
+    text-align: start;
+    max-width: 150px
+  }
+
+  .fb22 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5vh;
+  }
+
+
+  .fb1 {
+    width: 100%;
+  }
+
+
+  .fb11 p {
+    max-width: 100%;
+    text-align: center;
+  }
+
+
+  .footer-form {
+    text-align: center;
+  }
+
+
+  .fb12 p {
+    max-width: 100%;
+    text-align: center;
+  }
+
+
+  .fb2 {
+    width: 100%;
+  }
+
+
+  .fb21 {
+    flex-direction: column;
+    max-width: 100%;
+    text-align: start;
+  }
+
+
+  .fb21 a {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .fb22 p {
+    max-width: 100%;
+    text-align: center;
+  }
+}
